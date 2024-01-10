@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="25dp"
+    android:background="@drawable/pinkwallp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentComedy">
+
+    <ScrollView
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd_horor1"
+                android:layout_width="350dp"
+                android:layout_height="266dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:id="@+id/imgHoror1"
+                    android:layout_width="168dp"
+                    android:layout_height="254dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_below="@+id/teks_Deskription1"
+                    android:layout_gravity="left"
+                    android:src="@drawable/unlocked" />
+
+                <TextView
+                    android:id="@+id/horor_Title1"
+                    android:layout_width="146dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/imgHoror1"
+                    android:text="UNLOCKED"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teks_Deskription1"
+                    android:layout_width="179dp"
+                    android:layout_height="183dp"
+                    android:layout_below="@id/horor_Title1"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@id/imgHoror1"
+                    android:maxLines="11"
+                    android:text="@string/movh2_unlocked"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/unlocked"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/teks_Deskription1"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/imgHoror1"
+                    android:onClick="playUnlockedTrailer"
+                    android:text="Trailer" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd_horor2"
+                android:layout_width="350dp"
+                android:layout_height="266dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/horor_Title2"
+                    android:layout_width="143dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/imgHoror2"
+                    android:text="SEWU DINO"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teks_Deskription2"
+                    android:layout_width="179dp"
+                    android:layout_height="183dp"
+                    android:layout_below="@+id/horor_Title2"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@id/imgHoror2"
+                    android:maxLines="11"
+                    android:text="@string/movh4_sewudino"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/imgHoror2"
+                    android:layout_width="168dp"
+                    android:layout_height="254dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="6dp"
+                    android:layout_toLeftOf="@id/teks_Deskription2"
+                    android:src="@drawable/sewudino" />
+
+                <Button
+                    android:id="@+id/sewudino"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/teks_Deskription2"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/imgHoror2"
+                    android:onClick="playSewuDinoTrailer"
+                    android:text="TRAILER" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd_horor3"
+                android:layout_width="350dp"
+                android:layout_height="266dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:id="@+id/imgHoror3"
+                    android:layout_width="168dp"
+                    android:layout_height="254dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/themedium" />
+
+                <TextView
+                    android:id="@+id/horor_Title3"
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgHoror3"
+                    android:text="THE MEDIUM"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/teks_Deskription3"
+                    android:layout_width="179dp"
+                    android:layout_height="183dp"
+                    android:layout_below="@id/horor_Title3"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@id/imgHoror3"
+                    android:maxLines="11"
+                    android:text="@string/movh1_themedium"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/themedium"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/teks_Deskription3"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/imgHoror3"
+                    android:onClick="playTheMediumTrailer"
+                    android:text="Trailer" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd_horor4"
+                android:layout_width="350dp"
+                android:layout_height="266dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:id="@+id/imgHoror4"
+                    android:layout_width="168dp"
+                    android:layout_height="254dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/scream" />
+
+                <TextView
+                    android:id="@+id/horor_Title4"
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:text="SCREAM"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/teks_Deskription4"
+                    android:layout_width="179dp"
+                    android:layout_height="183dp"
+                    android:layout_below="@id/horor_Title4"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@id/imgHoror4"
+                    android:maxLines="11"
+                    android:text="@string/movh3_scream"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/mov_scream"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/teks_Deskription4"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="bottom|right"
+                    android:layout_toRightOf="@id/imgHoror4"
+                    android:onClick="playScreamTrailer"
+                    android:text="Trailer" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
