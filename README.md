@@ -11,4 +11,5 @@ Dosen Pengampu : Donny Maulana, S.Kom., M.M.S.I.
 
 ## Hasil Run
 
+https://github.com/VivieZuliani/MyStudio_UASMobile1/assets/130271255/20a2c9c9-305a-4a6f-9695-5e569868228e
 
